@@ -10,6 +10,4 @@ public class Main {
         Injector.injectDependency();
         ConsoleHandler.handle();
     }
-
-
 }

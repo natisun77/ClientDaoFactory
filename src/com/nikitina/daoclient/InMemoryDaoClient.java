@@ -1,4 +1,4 @@
-package com.nikitina.dao;
+package com.nikitina.daoclient;
 
 import com.nikitina.di.Component;
 import com.nikitina.model.Client;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class InMemoryClientDao implements ClientDao {
+public class InMemoryDaoClient implements DaoClient {
 
     private static final List<Client> inMemoryStorage = new ArrayList<>();
 
